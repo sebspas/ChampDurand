@@ -1,0 +1,314 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: "policetitre" ;
+	src: url(../fonts/Delicious_Curls.ttf);
+}
+
+@font-face {
+	font-family: "police_menu";
+	src: url(../fonts/Delicious_Curls_bold.ttf);
+}
+
+header {
+	position: relative;
+	min-width: 1000px;
+	width: 100%;
+	font-size: 25px;
+	top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: rgb(189, 195, 199);
+	background-size: cover;
+	margin: 0px;
+}
+
+#logo_titre {
+	margin: 0px;
+	padding-top: 15px;
+	position: inherit;
+}
+
+header h1 {
+	display: inline;
+	font-family: "policetitre";
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	height: 80px;
+}
+
+header a {
+ text-decoration: none;
+ color: rgb(242, 241, 239); /*par exemple*/
+}
+
+nav {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 0px;
+	width: 950px;
+	height: 40px;
+	list-style: none;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	font-size: 19px;
+}
+
+.menu {
+	font-family: Arial;
+	font-size: 18px;
+	text-decoration: none;
+    text-align: center;		
+}
+
+.menu li{
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display : inline;
+    width:100%;  
+    text-align: center;
+	
+}
+
+.menu li a{
+	margin : auto;	
+}
+
+.slide {
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+.contenu {
+	background-color: white;
+	width: 1000px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	-moz-box-shadow: 0px 0px 10px #000000;
+	-webkit-box-shadow: 0px 0px 10px #000000;
+	box-shadow: 0px 0px 10px #000000;
+	text-align: center;
+	overflow: auto;
+}
+
+.contenu-repas {
+	background-color: white;
+	width: 950px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	-moz-box-shadow: 0px 0px 10px #000000;
+	-webkit-box-shadow: 0px 0px 10px #000000;
+	box-shadow: 0px 0px 10px #000000;
+	text-align: center;
+	overflow: auto;
+}
+
+.contenu h2 {
+	padding-top: 15px;
+	text-align: center;
+}
+
+.contenu li {
+	float: left;
+}
+
+.liste_info {
+	float: right;
+	width: 250px;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.liste_info .puce1 {
+	list-style-image : url(../image/map_icone.png);
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.liste_info .puce2 {
+	list-style-image : url(../image/tel_icone.png);
+	padding-bottom: 10px;
+}
+
+.liste_info .puce3 {
+	list-style-image : url(../image/mail_icone.png);
+	padding-bottom: 10px;
+}
+
+.liste_info .puce4 {
+	list-style-image : url(../image/coord_icone.png);
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.liste_option{
+	padding-bottom: 55px;
+}
+
+#carte {
+	float: left;
+	padding-top: 25px;
+	padding-left: 15px;
+}
+
+.titre-chambre {
+	font-family: "police_menu";
+	font-size: 22px;
+}
+
+.sous-titre-chambre {
+	font-family: "police_menu";
+	font-size: 16px;
+}
+
+#chambre-standard {
+	width: 315px;
+	float: left;
+	color: rgb(52, 73, 94);
+	opacity: 0.85;
+	margin-left: 130px;
+	margin-right: 50px;
+	padding: 10px;
+	-moz-box-shadow: 0px 0px 2px #000000;
+	-webkit-box-shadow: 0px 0px 2px #000000;
+	box-shadow: 0px 0px 2px #000000;
+}
+
+#chambre-premium{
+	width: 315px;
+	float: left;
+	color: rgb(44, 62, 80);
+	opacity: 0.85;
+	padding: 10px;
+	-moz-box-shadow: 0px 0px 2px #000000;
+	-webkit-box-shadow: 0px 0px 2px #000000;
+	box-shadow: 0px 0px 2px #000000;
+	margin-bottom: 15px;
+}
+
+#supplément {
+	width: 700px;
+	float: left;
+	color: rgb(52, 73, 94);
+	opacity: 0.85;
+	margin-left: 130px;
+	padding: 10px;
+	-moz-box-shadow: 0px 0px 2px #000000;
+	-webkit-box-shadow: 0px 0px 2px #000000;
+	box-shadow: 0px 0px 2px #000000;
+}
+
+.formulaire {
+	width: 800px;
+	height: 401px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../image/fond_formulairev5.png);
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+
+.formulaire p{
+	text-align: left;
+}
+
+#submit_button {
+	padding: 10px 15px 11px;
+	font-size: 18px;
+	background-color: #95a5a6;
+	font-weight: bold;
+	text-shadow: 1px 1px #95a5a6;
+	color: #ffffff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #95a5a6;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+#erase_button {
+	padding: 10px 15px 11px;
+	font-size: 16px;
+	background-color: #bdc3c7;
+	font-weight: bold;
+	text-shadow: 1px 1px #bdc3c7;
+	color: #ffffff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #bdc3c7;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.liste-massage {
+	text-decoration: none;
+	width: 480px;
+	text-align: left;
+	float: left;
+	font-family: "Arial";
+	color: rgb(52, 73, 94);
+	padding-left: 50px;
+	display: inline;
+}
+
+.desc {
+	font-size: 14px;
+}
+
+body {
+	margin: 0px;
+	background-image: url(../image/fond_site.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sous-titre-image {
+	font-family: "police_menu";
+	font-size: 15px;
+	color: rgb(52, 73, 94);
+}
+.footer {
+	position: relative;
+	bottom: 0;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: rgb(189, 195, 199);
+	background-size: cover;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	min-width: 1000px;
+	width: 100%;
+}
+
+.logo_footer {
+	margin: 0px;
+	text-align: center;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+#texte_footer {
+	font-size: 12px;
+}

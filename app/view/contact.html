@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<title>Le Moulin de Champdurand, Formulaire de contact et demande d'information</title>
+	<meta name="description" content="Contactez-nous via le formulaire de cette page et demandez de plus ample information sur le Moulin de Champdurand." />
+	<link rel="shortcut icon" type="image/x-icon" href="image/iconev2.png"/>
+	<link rel="stylesheet" href="css/style.css" title="css"/>
+</head>
+
+<!-- Corp du site -->
+<body>
+	<header>
+		<img id="logo_titre" src="image/banierev5.png" alt="" />
+		<!-- Menu du site Web -->
+		<nav>
+				<ul class="menu">
+						<li><a href="index.html" >Acceuil</a></li>
+						<li><a href="galerie.html">Galerie</a></li>
+						<li><a href="Laregion.html">La Region</a></li>						
+						<li><a href="bien-etre.html">Bien-être</a></li>
+						<li><a href="repas.html">Repas</a></li>
+						<li><a href="tarifs.html">Tarifs</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="acces.html">Accès</a></li>
+				</ul>
+		</nav>
+		<!-- Fin menu du site Web -->
+	</header> 
+		<div class="contenu" style="height: 470px;">
+			<form class="formulaire" method="post" action="formmail.php" target="popup" onsubmit="javascript:window.open('','popup','width=500,height=25');">
+				<p>
+					<input type="text" name="prenom" value="Prénom" style="width: 140px;color: grey;margin-top: 110px;margin-left: 50px;" onclick="if(this.value=='Prénom')this.value='';"/>
+					<input type="text" name="nom" value="Nom" style="width: 140px;color: grey;margin-left: 10px;" onclick="if(this.value=='Nom')this.value='';"/><br /><br />
+					<input type="text" name="objet" value="Objet" style="width: 300px;color: grey;margin-left: 50px;" onclick="if(this.value=='Objet')this.value='';"/><br/><br/>
+					<input type="email" name="email" value="votre@mail.fr" style="width: 300px;color: grey;margin-left: 50px" onclick="if(this.value=='votre@mail.fr')this.value='';"/>
+					<input type="tel" name="telephone" value="Telephone" style="width: 150px;color: grey;margin-left: 10px;" onclick="if(this.value=='Telephone')this.value='';" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$"/><br/><br/>
+					<textarea name="message" rows="3" cols="55" style="color: grey;margin-left: 200px" value="Informations Complémentaire" onFocus="if(this.value=='Informations Complémentaire')this.value=''" >Informations Complémentaire</textarea><br/><br/>
+					<input id="submit_button" type="submit" value="Envoyer" style="margin: 0;margin-left: 300px;"/>
+					<input id="erase_button" type="RESET" value="Effacer" style="margin:0;margin-left: 15px;"/>
+					<!-- Portection Anti-spam -->
+					<div style="display:none">
+					<label for="no_email">N'entrez rien dans ce champ *</label>
+					<input id="no_email" name="no_email" type="email" />
+					</div>
+					<!-- Fin Protection Anti-spam -->
+				</p><br/>
+			</form>
+		</div>
+	<footer class="footer" >
+		<div>
+			<div style="margin-left: auto;margin-right: auto;width: 700px;">
+				<img class="logo_footer" src="image/petifute-logo2.png" alt=""/> 
+				<img class="logo_footer" src="image/logo-marie.png" alt="" />
+				<img class="logo_footer" src="image/routard-logo2.png" alt="" />
+			</div>			
+			<p id="texte_footer"><strong>Le Moulin de Champdurand</strong>, 972, chemin Champdurand, 26790 - SUZE-LA-ROUSSE Tél : + 33 (0)4.75.98.87.59<br/>
+			Nombre de visite sur le site : <img src="http://www.mon-compteur.fr/html_c01genv2-156098-3" style="border: 0;" alt=""/><br/>
+
+								 ___________________________________________________________________________________________________<br/>
+								 Copyright © 2014 All Rights Reserved</p>
+		</div>
+	</footer>
+</body>
+
+</html>
